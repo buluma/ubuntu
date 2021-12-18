@@ -15,7 +15,11 @@ jobs:
   # Test the image builds and works correctly.
   test:
     name: Test ubuntu2004
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-20.04]
 
     steps:
       - uses: actions/checkout@v2
