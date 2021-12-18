@@ -1,5 +1,5 @@
 ---
-name: ubuntu2204 build 
+name: ubuntu2204 build - 
 
 on:
   pull_request:
