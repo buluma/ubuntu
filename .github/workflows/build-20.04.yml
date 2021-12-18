@@ -1,5 +1,5 @@
 ---
-name: ubuntu2004 build
+name: ubuntu2004 build 
 
 on:
   pull_request:
