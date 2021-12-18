@@ -5,8 +5,8 @@ on:
   pull_request:
   push:
     paths:
-      - 'ubuntu2004/**'
-      - '.github/workflows/ubuntu2004.yaml'
+      - 'ubuntu1804/**'
+      - '.github/workflows/ubuntu1804.yaml'
   schedule:
     - cron: "10 1 * * 0"
   workflow_dispatch:
