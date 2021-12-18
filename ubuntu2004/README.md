@@ -1,6 +1,6 @@
 # Ubuntu 20.04 LTS (Focal Fossa) Ansible Test Image
 
-[![ubuntu2004](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml)
+[![ubuntu2004](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/buluma/ubuntu/20.04) ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/buluma/ubuntu/20.04)
 
 Ubuntu 20.04 LTS (Focal Fossa) Docker container for Ansible playbook and role testing.
 

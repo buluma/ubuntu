@@ -1,6 +1,6 @@
 # Ubuntu 21.04 LTS (Hirsute Hippo) Ansible Test Image
 
-[![ubuntu2104](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml)
+[![ubuntu2104](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/buluma/ubuntu/22.04) ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/buluma/ubuntu/22.04)
 
 Ubuntu 21.04 LTS (Hirsute Hippo) Docker container for Ansible playbook and role testing.
 
