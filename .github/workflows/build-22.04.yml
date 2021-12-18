@@ -1,12 +1,12 @@
 ---
-name: Build 2104
+name: Build 2204
 
 on:
   pull_request:
   push:
     paths:
-      - 'ubuntu2104/**'
-      - '.github/workflows/build-21.04.yml'
+      - 'ubuntu2204/**'
+      - '.github/workflows/build-22.04.yml'
   schedule:
     - cron: "10 1 * * 0"
   workflow_dispatch:
@@ -14,18 +14,18 @@ on:
 jobs:
   # Test the image builds and works correctly.
   test:
-    name: Test ubuntu2104
+    name: Test ubuntu2204
     # runs-on: ubuntu-latest
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-21.04]
+        os: [ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Test building image.
-        run: cd ubuntu2104 && docker build -t docker-ansible .
+        run: cd ubuntu2204 && docker build -t docker-ansible .
 
       - name: Run the built image.
         run: docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro docker-ansible
@@ -61,9 +61,9 @@ jobs:
       - name: Build and push image.
         uses: docker/build-push-action@v2
         with:
-          context: ubuntu2104/
-          file: ubuntu2104/Dockerfile
+          context: ubuntu2204/
+          file: ubuntu2204/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ${{ github.repository }}:21.04
+            ${{ github.repository }}:22.04
