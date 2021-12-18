@@ -1,5 +1,7 @@
 # Ubuntu 18.04 LTS (Bionic) Ansible Test Image
 
+[![ubuntu1804](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml)
+
 Ubuntu 18.04 LTS (Bionic) Docker container for Ansible playbook and role testing.
 
 ## Tags

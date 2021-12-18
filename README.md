@@ -1,5 +1,7 @@
 # Ubuntu Base Images
 
+[![ubuntu1804](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml) [![ubuntu2004](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml) [![ubuntu2104](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml) [![ubuntu2104](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml)
+
 ### Quick reference
 
     Maintained by: Buluma
