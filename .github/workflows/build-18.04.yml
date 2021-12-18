@@ -1,5 +1,5 @@
 ---
-name: ubuntu1804
+name: ubuntu1804 build
 
 on:
   pull_request:
