@@ -63,7 +63,7 @@ jobs:
         with:
           context: ubuntu2104/
           file: ubuntu2104/Dockerfile
-          platforms: linux/amd64,linux/arm64, linux/arm32v7, linux/arm64v8
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: |
             ${{ github.repository }}:21.04, ${{ github.repository }}:hirsute-20211107, ${{ github.repository }}:hirsute
