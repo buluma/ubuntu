@@ -28,7 +28,7 @@ jobs:
         run: cd ubuntu1404 && docker build -t docker-ubuntu-14 .
 
       - name: Run the built image.
-        run: docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro docker-ubuntu-18
+        run: docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro docker-ubuntu-14
 
       # - name: Verify Ansible is accessible in the built image.
         # run: docker exec --tty test-container env TERM=xterm ansible --version
