@@ -1,5 +1,5 @@
 ---
-name: ubuntu1804 build 
+name: 18.04, bionic 
 
 on:
   pull_request:

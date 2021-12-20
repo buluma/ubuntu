@@ -1,5 +1,5 @@
 ---
-name: ubuntu2004 build 
+name: 20.04, focal 
 
 on:
   pull_request:
