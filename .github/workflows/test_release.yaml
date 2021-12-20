@@ -28,7 +28,7 @@ jobs:
           context: ubuntu1804/
           file: ubuntu1804/Dockerfile
           # platforms: linux/amd64,linux/arm64, linux/arm32v7, linux/arm64v8
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64,linux/arm64,linux/riscv64,linux/ppc64le,linux/s390x,linux/386,linux/mips64le,linux/mips64,linux/arm/v7,linux/arm/v6
           push: true
           tags: |
             ${{ github.repository }}:test-ubuntu-18
