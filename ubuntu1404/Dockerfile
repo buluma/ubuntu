@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 LABEL maintainer="Michael Buluma"
 
-ENV pip_packages "ansible"
+# ENV pip_packages "ansible"
 
 # Install dependencies and upgrade Python.
 RUN apt-get update \
@@ -17,13 +17,13 @@ RUN apt-get update \
     && apt-get clean
 
 # Install Ansible via Pip.
-ADD https://bootstrap.pypa.io/get-pip.py .
-RUN /usr/bin/python2.7 get-pip.py \
-  && pip install $pip_packages
+# ADD https://bootstrap.pypa.io/get-pip.py .
+# RUN /usr/bin/python2.7 get-pip.py \
+ # && pip install $pip_packages
 
 # Install Ansible inventory file.
-RUN mkdir -p /etc/ansible
-RUN echo "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
+# RUN mkdir -p /etc/ansible
+# RUN echo "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 
 # Workaround for pleaserun tool that Logstash uses
 RUN rm -rf /sbin/initctl && ln -s /sbin/initctl.distrib /sbin/initctl
