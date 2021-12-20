@@ -1,6 +1,6 @@
 # Ubuntu Base Images
 
-[![18.04, bionic](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml) [![20.04, focal](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml) [![21.04, hirsute](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml) [![21.10, impish](https://github.com/buluma/ubuntu/actions/workflows/build-21.10.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.10.yml) [![22.04, jammy](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml)
+[![16.04, xenial](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml) [![18.04, bionic](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml) [![20.04, focal](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml) [![21.04, hirsute](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml) [![21.10, impish](https://github.com/buluma/ubuntu/actions/workflows/build-21.10.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.10.yml) [![22.04, jammy](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml)
 
 ### Quick reference
 
@@ -10,13 +10,13 @@
 
 ### Supported tags and respective Dockerfile links
 
-    18.04, bionic-20210930, bionic
-    20.04, focal-20211006, focal, latest
-    21.04, hirsute-20211107, hirsute
-    21.10, impish-20211102, impish, rolling
     22.04, jammy-20211122, jammy, devel
-    14.04, trusty-20191217, trusty
+    21.10, impish-20211102, impish, rolling
+    21.04, hirsute-20211107, hirsute
+    20.04, focal-20211006, focal, latest
+    18.04, bionic-20210930, bionic
     16.04, xenial-20210804, xenial
+    14.04, trusty-20191217, trusty
 
 ### Quick reference (cont.)
 
