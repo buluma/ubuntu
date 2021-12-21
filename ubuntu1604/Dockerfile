@@ -50,3 +50,6 @@ RUN ln -s /dev/null /etc/systemd/system/getty@tty1.service \
 
 VOLUME ["/sys/fs/cgroup", "/tmp", "/run"]
 CMD ["/lib/systemd/systemd"]
+
+HEALTHCHECK --interval=5m --timeout=3s \
+  CMD curl -f http://localhost/ || exit 1
