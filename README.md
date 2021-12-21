@@ -3,7 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/bced2d477fd8443b80ff528d1c0bc2d1)](https://app.codacy.com/gh/buluma/ubuntu?utm_source=github.com&utm_medium=referral&utm_content=buluma/ubuntu&utm_campaign=Badge_Grade_Settings)
 [![14.04, trusty](https://github.com/buluma/ubuntu/actions/workflows/build-14.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-14.04.yml) [![16.04, xenial](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml) [![18.04, bionic](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml) [![20.04, focal](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml) [![21.04, hirsute](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.04.yml) [![21.10, impish](https://github.com/buluma/ubuntu/actions/workflows/build-21.10.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-21.10.yml) [![22.04, jammy](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml) [![SL Scan](https://github.com/buluma/ubuntu/actions/workflows/shiftleft-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/shiftleft-analysis.yml) [![Codacy Security Scan](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml) [![Codacy Security Scan](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml)
 
-# Quick reference
+## Quick reference
 
 -	**Maintained by**:  
 	[Canonical](https://launchpad.net/cloud-images) and [Tianon (Debian Developer)](https://github.com/tianon/docker-brew-ubuntu-core)
@@ -11,7 +11,7 @@
 -	**Where to get help**:  
 	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
 
-# Supported tags and respective `Dockerfile` links
+## Supported tags and respective `Dockerfile` links
 
 -	[`18.04`, `bionic-20210930`, `bionic`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/bionic/Dockerfile)
 -	[`20.04`, `focal-20211006`, `focal`, `latest`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/focal/Dockerfile)
@@ -21,7 +21,7 @@
 -	[`14.04`, `trusty-20191217`, `trusty`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/trusty/Dockerfile)
 -	[`16.04`, `xenial-20210804`, `xenial`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/xenial/Dockerfile)
 
-# Quick reference (cont.)
+## Quick reference (cont.)
 
 -	**Where to file issues**:  
 	[the cloud-images bug tracker](https://github.com/buluma/ubuntu/issues) (include the `docker` tag)
@@ -40,7 +40,7 @@
 -	**Source of this description**:  
 	[docs repo's `ubuntu/` directory](https://github.com/docker-library/docs/tree/master/ubuntu) ([history](https://github.com/docker-library/docs/commits/master/ubuntu))
 
-# What is Ubuntu?
+## What is Ubuntu?
 
 Ubuntu is a Debian-based Linux operating system that runs from the desktop to the cloud, to all your internet connected things. It is the world's most popular operating system across public clouds and OpenStack clouds. It is the number one platform for containers; from Docker to Kubernetes to LXD, Ubuntu can run your containers at scale. Fast, secure and simple, Ubuntu powers millions of PCs worldwide.
 
@@ -50,7 +50,7 @@ Development of Ubuntu is led by Canonical Ltd. Canonical generates revenue throu
 
 ![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/ubuntu/logo.png)
 
-# What's in this image?
+## What's in this image?
 
 This image is built from official rootfs tarballs provided by Canonical (specifically, https://partner-images.canonical.com/oci/ for Bionic and later and https://partner-images.canonical.com/core/ for older releases).
 
@@ -70,6 +70,6 @@ RUN apt-get update && apt-get install -y locales && rm -rf /var/lib/apt/lists/* 
 ENV LANG en_US.utf8
 ```
 
-# How is the rootfs built?
+## How is the rootfs built?
 
 The [tarballs published by Canonical](https://partner-images.canonical.com/oci/) are built from scripts that live in [the livecd-rootfs project](https://code.launchpad.net/~ubuntu-core-dev/livecd-rootfs/+git/livecd-rootfs/+ref/ubuntu/master), especially `live-build/auto/build`.
