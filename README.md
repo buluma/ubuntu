@@ -13,13 +13,13 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`14.04`, `trusty-20191217`, `trusty`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/trusty/Dockerfile)
--	[`16.04`, `xenial-20210804`, `xenial`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/xenial/Dockerfile)
--	[`18.04`, `bionic-20210930`, `bionic`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/bionic/Dockerfile)
--	[`20.04`, `focal-20211006`, `focal`, `latest`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/focal/Dockerfile)
--	[`21.04`, `hirsute-20211107`, `hirsute`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/hirsute/Dockerfile)
--	[`21.10`, `impish-20211102`, `impish`, `rolling`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/impish/Dockerfile)
--	[`22.04`, `jammy-20211122`, `jammy`, `devel`](https://github.com/tianon/docker-brew-ubuntu-core/blob/bf61e139e84e04f9d87fff5dc588a3f0398da627/jammy/Dockerfile)
+-	[`14.04`, `trusty-20191217`, `trusty`](https://github.com/buluma/ubuntu/blob/main/ubuntu1404/Dockerfile)
+-	[`16.04`, `xenial-20210804`, `xenial`](https://github.com/buluma/ubuntu/blob/main/ubuntu1604/Dockerfile)
+-	[`18.04`, `bionic-20210930`, `bionic`](https://github.com/buluma/ubuntu/blob/main/ubuntu1804/Dockerfile)
+-	[`20.04`, `focal-20211006`, `focal`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2004/Dockerfile)
+-	[`21.04`, `hirsute-20211107`, `hirsute`](https://github.com/buluma/ubuntu/blob/main/ubuntu2104/Dockerfile)
+-	[`21.10`, `impish-20211102`, `impish`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2110/Dockerfile)
+-	[`22.04`, `jammy-20211122`, `jammy`, `devel`](https://github.com/buluma/ubuntu/blob/main/ubuntu2204/Dockerfile)
 
 ## Quick reference (cont.)
 
@@ -34,11 +34,10 @@
 	(image metadata, transfer size, etc)
 
 -	**Image updates**:  
-	[official-images repo's `library/ubuntu` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Fubuntu)  
-	[official-images repo's `library/ubuntu` file](https://github.com/docker-library/official-images/blob/master/library/ubuntu) ([history](https://github.com/docker-library/official-images/commits/master/library/ubuntu))
+	[official-images repo's `library/ubuntu` file](https://github.com/buluma/ubuntu) ([history](https://github.com/buluma/ubuntu/commits/main))
 
 -	**Source of this description**:  
-	[docs repo's `ubuntu/` directory](https://github.com/docker-library/docs/tree/master/ubuntu) ([history](https://github.com/docker-library/docs/commits/master/ubuntu))
+	[docs repo's `ubuntu/` directory](https://github.com/buluma/ubuntu/blob/main/README.md) ([history](https://github.com/buluma/ubuntu/commits/main/README.md))
 
 ## What is Ubuntu?
 
