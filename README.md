@@ -6,7 +6,7 @@
 ## Quick reference
 
 -	**Maintained by**:  
-	[Canonical](https://launchpad.net/cloud-images) and [Tianon (Debian Developer)](https://github.com/tianon/docker-brew-ubuntu-core)
+	[Buluma (Shadow Walker)](https://github.com/buluma/ubuntu)
 
 -	**Where to get help**:  
 	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
