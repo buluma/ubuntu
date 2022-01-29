@@ -11,6 +11,7 @@ RUN apt-get update \
        apt-utils \
        build-essential \
        locales \
+       gnupg \
        libffi-dev \
        libssl-dev \
        libyaml-dev \
