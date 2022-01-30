@@ -12,6 +12,7 @@ RUN apt-get update \
        build-essential \
        locales \
        gnupg \
+       bison \
        libffi-dev \
        libssl-dev \
        libyaml-dev \
