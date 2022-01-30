@@ -14,6 +14,7 @@ RUN apt-get update \
        gnupg \
        bison \
        libffi-dev \
+       libelf-dev \
        libssl-dev \
        libyaml-dev \
        python3-dev \
