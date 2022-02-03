@@ -17,6 +17,7 @@ RUN apt-get update \
        locales \
        gnupg \
        bison \
+       net-tools \
        libelf-dev \
        libffi-dev \
        libssl-dev \
