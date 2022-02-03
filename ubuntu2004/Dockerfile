@@ -13,6 +13,7 @@ RUN apt-get update \
        locales \
        gnupg \
        bison \
+       net-tools \
        libffi-dev \
        libelf-dev \
        libssl-dev \
