@@ -63,7 +63,7 @@ jobs:
         with:
           context: ubuntu1404/
           file: ubuntu1404/Dockerfile
-          platforms: linux/arm32v6,linux/arm32v7,linux/arm64v8,linux/amd64,linux/windows-amd64
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: |
             ${{ github.repository }}:14.04, ${{ github.repository }}:trusty-20191217, ${{ github.repository }}:trusty
