@@ -12,7 +12,7 @@ RUN apt-get update \
        build-essential \
        locales \
        gnupg \
-       bison \
+       bison cron \
        net-tools \
        libffi-dev \
        libelf-dev \
