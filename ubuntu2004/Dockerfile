@@ -13,7 +13,7 @@ RUN apt-get update \
        locales \
        gnupg \
        bison \
-       net-tools \
+       net-tools ansible \
        libffi-dev \
        libelf-dev \
        libssl-dev \
