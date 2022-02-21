@@ -13,7 +13,8 @@ RUN apt-get update \
        locales \
        gnupg \
        bison \
-       net-tools ansible curl debian-archive-keyring unattended-upgrades \
+       net-tools ansible curl debian-archive-keyring unattended-upgrades apt-listchanges \
+       mariadb-server python3-mysqldb auditd python3-selinux python3-semanage selinux-policy-default openssh-server \
        libffi-dev \
        libelf-dev \
        libssl-dev \
