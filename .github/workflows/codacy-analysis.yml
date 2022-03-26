@@ -22,6 +22,10 @@ on:
   schedule:
     - cron: '29 15 * * 0'
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   codacy-security-scan:
     name: Codacy Security Scan

@@ -11,6 +11,10 @@ on:
     - cron: '40 6,9 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   # Test the image builds and works correctly.
   test:
@@ -67,7 +71,7 @@ jobs:
         with:
           context: ubuntu1404/
           file: ubuntu1404/Dockerfile
-          platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
+          platforms: linux/amd64,linux/arm64,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
             ${{ github.repository }}:14.04, ${{ github.repository }}:trusty-20191217, ${{ github.repository }}:trusty

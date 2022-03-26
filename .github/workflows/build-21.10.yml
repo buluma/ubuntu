@@ -11,6 +11,10 @@ on:
     - cron: '14 4,6 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   # Test the image builds and works correctly.
   test:
@@ -67,7 +71,7 @@ jobs:
         with:
           context: ubuntu2204/
           file: ubuntu2204/Dockerfile
-          platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
+          platforms: linux/amd64,linux/arm64,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
             ${{ github.repository }}:impish, ${{ github.repository }}:21.10, ${{ github.repository }}:impish-20211102, ${{ github.repository }}:rolling

@@ -17,6 +17,10 @@ on:
   schedule:
     - cron: '36 0 * * 2'
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   Scan-Build:
     # Scan runs on ubuntu, mac and windows
