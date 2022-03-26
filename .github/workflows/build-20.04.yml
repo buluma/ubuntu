@@ -1,5 +1,5 @@
 ---
-name: 20.04, focal 
+name: 20.04, focal
 
 on:
   pull_request:
