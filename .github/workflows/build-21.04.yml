@@ -11,10 +11,6 @@ on:
     - cron: '27 2,4 * * *'
   workflow_dispatch:
 
-concurrency:
-  group: ${{ github.ref }}-${{ github.workflow }}
-  cancel-in-progress: true
-
 jobs:
   # Test the image builds and works correctly.
   test:
@@ -71,7 +67,7 @@ jobs:
         with:
           context: ubuntu2104/
           file: ubuntu2104/Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/arm64/v8,linux/ppc64le,linux/s390x
+          platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
             ${{ github.repository }}:21.04, ${{ github.repository }}:hirsute-20211107, ${{ github.repository }}:hirsute
