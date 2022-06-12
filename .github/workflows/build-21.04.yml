@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            ${{ github.repository }}:21.04, ${{ github.repository }}:hirsute-20211107, ${{ github.repository }}:hirsute
+            ${{ github.repository }}:21.04, ${{ github.repository }}:hirsute-20220612, ${{ github.repository }}:hirsute

@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64,linux/arm64/v8,linux/ppc64le,linux/386,linux/arm/v7
           push: true
           tags: |
-            ${{ github.repository }}:14.04, ${{ github.repository }}:trusty-20191217, ${{ github.repository }}:trusty
+            ${{ github.repository }}:14.04, ${{ github.repository }}:trusty-20220612, ${{ github.repository }}:trusty

@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            ${{ github.repository }}:impish, ${{ github.repository }}:21.10, ${{ github.repository }}:impish-20211102, ${{ github.repository }}:rolling
+            ${{ github.repository }}:impish, ${{ github.repository }}:21.10, ${{ github.repository }}:impish-20220612

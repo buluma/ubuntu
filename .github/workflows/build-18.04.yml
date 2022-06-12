@@ -71,4 +71,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            ${{ github.repository }}:18.04, ${{ github.repository }}:bionic-20210930, ${{ github.repository }}:bionic
+            ${{ github.repository }}:18.04, ${{ github.repository }}:bionic-20220612, ${{ github.repository }}:bionic
