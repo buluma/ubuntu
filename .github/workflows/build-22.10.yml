@@ -8,7 +8,7 @@ on:
       - 'ubuntu2210/**'
       - '.github/workflows/build-22.10.yml'
   schedule:
-    - cron: '50 1,4 * * *'
+    - cron: '50 1,4 * * 1,4'
   workflow_dispatch:
 
 jobs:

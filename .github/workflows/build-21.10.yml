@@ -8,7 +8,7 @@ on:
       - 'ubuntu2110/**'
       - '.github/workflows/build-21.10.yml'
   schedule:
-    - cron: '14 4,6 * * *'
+    - cron: '14 4,6 * * 1,6'
   workflow_dispatch:
 
 jobs:
