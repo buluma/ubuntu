@@ -1,5 +1,5 @@
 ---
-name: 23.04, devel
+name: 24.04, latest
 
 on:
   pull_request:
@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            ${{ github.repository }}:24.04, ${{ github.repository }}:noble, ${{ github.repository }}:noble-20250529, ${{ github.repository }}:latest
+            ${{ github.repository }}:24.04, ${{ github.repository }}:noble, ${{ github.repository }}:noble-20250529, ${{ github.repository }}:latest, ${{ github.repository }}:ubuntu_latest

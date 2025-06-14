@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            ${{ github.repository }}:22.04, ${{ github.repository }}:jammy, ${{ github.repository }}:jammy-20220612, ${{ github.repository }}:latest, ${{ github.repository }}:rolling
+            ${{ github.repository }}:22.04, ${{ github.repository }}:jammy, ${{ github.repository }}:jammy-20250530, ${{ github.repository }}:latest, ${{ github.repository }}:rolling
