@@ -1,6 +1,7 @@
 FROM ubuntu:plucky
 
 LABEL maintainer="Michael Buluma"
+LABEL build_date="2026-01-09"
 
 ARG DEBIAN_FRONTEND=noninteractive
 

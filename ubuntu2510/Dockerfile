@@ -1,7 +1,7 @@
 FROM ubuntu:questing
 
 LABEL maintainer="Michael Buluma"
-LABEL build_date="2025-12-17"
+LABEL build_date="2026-01-09"
 
 ARG DEBIAN_FRONTEND=noninteractive
 

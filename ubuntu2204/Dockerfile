@@ -1,7 +1,7 @@
 FROM ubuntu:jammy
 
 LABEL maintainer="Michael Buluma"
-LABEL build_date="2022-06-07"
+LABEL build_date="2026-01-09"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
