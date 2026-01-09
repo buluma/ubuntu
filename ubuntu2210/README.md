@@ -1,8 +1,9 @@
 # Ubuntu 22.10 LTS (Kinetic Kudu) Ansible Test Image
 
 [![ubuntu2210](https://github.com/buluma/ubuntu/actions/workflows/
-build-22.10.yml/badge.svg?branch=main)](https://github.com/buluma/
-ubuntu/actions/workflows/build-22.10.yml) ![Docker Image Size (tag)](
+[![ubuntu2210](https://github.com/buluma/ubuntu/actions/workflows/
+build-22.10.yml/badge.svg?branch=main)](<https://github.com/buluma/
+ubuntu/actions/workflows/build-22.10.yml>)
 https://img.shields.io/docker/image-size/buluma/ubuntu/22.10) ![
 https://img.shields.io/docker/image-size/buluma/ubuntu/22.10) ![
 Docker Image Version (tag latest semver)](<https://img.shields.io/
