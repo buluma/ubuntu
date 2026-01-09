@@ -13,14 +13,29 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`14.04`, `trusty-20191217`, `trusty`](https://github.com/buluma/ubuntu/blob/main/ubuntu1404/Dockerfile)
--	[`16.04`, `xenial-20210804`, `xenial`](https://github.com/buluma/ubuntu/blob/main/ubuntu1604/Dockerfile)
--	[`18.04`, `bionic-20210930`, `bionic`](https://github.com/buluma/ubuntu/blob/main/ubuntu1804/Dockerfile)
--	[`20.04`, `focal-20211006`, `focal`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2004/Dockerfile)
--	[`21.04`, `hirsute-20211107`, `hirsute`](https://github.com/buluma/ubuntu/blob/main/ubuntu2104/Dockerfile)
--	[`21.10`, `impish-20211102`, `impish`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2110/Dockerfile)
--	[`22.04`, `jammy-20211122`, `jammy`](https://github.com/buluma/ubuntu/blob/main/ubuntu2204/Dockerfile)
--	[`23.04`, `lunar-20230314`, `lunar`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2304/Dockerfile)
+### Currently Supported LTS Versions
+-	[`20.04`, `focal`, `focal-20220612`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2004/Dockerfile) *(EOL: April 2025)*
+-	[`22.04`, `jammy-20251013`, `jammy`, `latest`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2204/Dockerfile) *(EOL: April 2027)*
+-	[`24.04`, `noble-20251013`, `noble`, `latest`, `ubuntu_latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2404/Dockerfile) *(EOL: April 2029)*
+
+### Currently Supported Non-LTS Versions
+-	[`23.04`, `lunar`, `lunar-20230314`, `devel`](https://github.com/buluma/ubuntu/blob/main/ubuntu2304/Dockerfile) *(EOL: January 2024)*
+
+### Deprecated/EOL LTS Versions
+-	[`14.04`, `trusty`, `trusty-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu1404/Dockerfile) *(EOL: April 2019)*
+-	[`16.04`, `xenial`, `xenial-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu1604/Dockerfile) *(EOL: April 2021)*
+-	[`18.04`, `bionic`, `bionic-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu1804/Dockerfile) *(EOL: May 2023)*
+
+### Deprecated/EOL Non-LTS Versions
+-	[`21.04`, `hirsute`, `hirsute-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu2104/Dockerfile) *(EOL: January 2022)*
+-	[`21.10`, `impish`, `impish-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu2110/Dockerfile) *(EOL: July 2022)*
+-	[`22.10`, `kinetic`, `kinetic-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu2210/Dockerfile) *(EOL: July 2023)*
+
+### Rolling/Development Versions
+-	[`21.10`, `impish`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2110/Dockerfile) *(Rolling)*
+
+### Upcoming/Future Versions
+-	[`25.04`, `plucky-20251001`, `plucky`](https://github.com/buluma/ubuntu/blob/main/ubuntu2504/Dockerfile) *(Expected: April 2025)*
 
 ## Quick reference (cont.)
 
