@@ -1,5 +1,5 @@
 ---
-name: 25.04, devel
+name: 25.04, plucky-20251001, plucky
 
 on:
   pull_request:
@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            ${{ github.repository }}:25.04, ${{ github.repository }}:plucky, ${{ github.repository }}:plucky-20250521, ${{ github.repository }}:devel
+            ${{ github.repository }}:25.04, ${{ github.repository }}:plucky, ${{ github.repository }}:plucky-20251001

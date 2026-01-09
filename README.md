@@ -1,7 +1,7 @@
 # Ubuntu Base Images
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/bced2d477fd8443b80ff528d1c0bc2d1)](https://app.codacy.com/gh/buluma/ubuntu?utm_source=github.com&utm_medium=referral&utm_content=buluma/ubuntu&utm_campaign=Badge_Grade_Settings)
-[![14.04, trusty](https://github.com/buluma/ubuntu/actions/workflows/build-14.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-14.04.yml) [![16.04, xenial](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml) [![18.04, bionic](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml) [![20.04, focal](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml) [![22.04, jammy](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml) [![23.04, lunar](https://github.com/buluma/ubuntu/actions/workflows/build-23.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-23.04.yml) [![SL Scan](https://github.com/buluma/ubuntu/actions/workflows/shiftleft-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/shiftleft-analysis.yml) [![Codacy Security Scan](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml) [![Codacy Security Scan](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml)
+[![14.04, trusty](https://github.com/buluma/ubuntu/actions/workflows/build-14.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-14.04.yml) [![16.04, xenial](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-16.04.yml) [![18.04, bionic](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-18.04.yml) [![20.04, focal](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-20.04.yml) [![22.04, jammy](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-22.04.yml) [![23.04, lunar](https://github.com/buluma/ubuntu/actions/workflows/build-23.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-23.04.yml) [![24.04, noble](https://github.com/buluma/ubuntu/actions/workflows/build-24.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-24.04.yml) [![25.04, plucky](https://github.com/buluma/ubuntu/actions/workflows/build-25.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-25.04.yml) [![25.10, questing](https://github.com/buluma/ubuntu/actions/workflows/build-25.10.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-25.10.yml) [![26.04, resolute](https://github.com/buluma/ubuntu/actions/workflows/build-26.04.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/build-26.04.yml) [![SL Scan](https://github.com/buluma/ubuntu/actions/workflows/shiftleft-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/shiftleft-analysis.yml) [![Codacy Security Scan](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml) [![Codacy Security Scan](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml/badge.svg?branch=main)](https://github.com/buluma/ubuntu/actions/workflows/codacy-analysis.yml)
 
 ## Quick reference
 
@@ -15,11 +15,12 @@
 
 ### Currently Supported LTS Versions
 -	[`20.04`, `focal`, `focal-20220612`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2004/Dockerfile) *(EOL: April 2025)*
--	[`22.04`, `jammy-20251013`, `jammy`, `latest`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2204/Dockerfile) *(EOL: April 2027)*
--	[`24.04`, `noble-20251013`, `noble`, `latest`, `ubuntu_latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2404/Dockerfile) *(EOL: April 2029)*
+-	[`22.04`, `jammy-20251013`, `jammy`](https://github.com/buluma/ubuntu/blob/main/ubuntu2204/Dockerfile) *(EOL: April 2027)*
+-	[`24.04`, `noble-20251013`, `noble`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2404/Dockerfile) *(EOL: April 2029)*
 
 ### Currently Supported Non-LTS Versions
 -	[`23.04`, `lunar`, `lunar-20230314`, `devel`](https://github.com/buluma/ubuntu/blob/main/ubuntu2304/Dockerfile) *(EOL: January 2024)*
+-	[`25.04`, `plucky-20251001`, `plucky`](https://github.com/buluma/ubuntu/blob/main/ubuntu2504/Dockerfile) *(EOL: January 2026)*
 
 ### Deprecated/EOL LTS Versions
 -	[`14.04`, `trusty`, `trusty-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu1404/Dockerfile) *(EOL: April 2019)*
@@ -32,10 +33,8 @@
 -	[`22.10`, `kinetic`, `kinetic-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu2210/Dockerfile) *(EOL: July 2023)*
 
 ### Rolling/Development Versions
--	[`21.10`, `impish`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2110/Dockerfile) *(Rolling)*
-
-### Upcoming/Future Versions
--	[`25.04`, `plucky-20251001`, `plucky`](https://github.com/buluma/ubuntu/blob/main/ubuntu2504/Dockerfile) *(Expected: April 2025)*
+-	[`25.10`, `questing-20251217`, `questing`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2510/Dockerfile) *(Rolling)*
+-	[`26.04`, `resolute-20251208`, `resolute`, `devel`](https://github.com/buluma/ubuntu/blob/main/ubuntu2604/Dockerfile) *(Development)*
 
 ## Quick reference (cont.)
 

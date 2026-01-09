@@ -1,5 +1,5 @@
 ---
-name: 24.04, latest
+name: 24.04, noble-20251013, noble, latest
 
 on:
   pull_request:
@@ -14,7 +14,7 @@ on:
 jobs:
   # Test the image builds and works correctly.
   test:
-    name: Test ubuntu2204
+    name: Test ubuntu2404
     # runs-on: ubuntu-latest
     runs-on: ${{ matrix.os }}
     strategy:
@@ -70,4 +70,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            ${{ github.repository }}:24.04, ${{ github.repository }}:noble, ${{ github.repository }}:noble-20250529, ${{ github.repository }}:latest, ${{ github.repository }}:ubuntu_latest
+            ${{ github.repository }}:24.04, ${{ github.repository }}:noble, ${{ github.repository }}:noble-20251013, ${{ github.repository }}:latest
