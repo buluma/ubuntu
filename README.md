@@ -14,9 +14,9 @@
 ## Supported tags and respective `Dockerfile` links
 
 ### Currently Supported LTS Versions
--	[`20.04`, `focal`, `focal-20220612`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2004/Dockerfile) *(EOL: April 2025)*
--	[`22.04`, `jammy-20251013`, `jammy`](https://github.com/buluma/ubuntu/blob/main/ubuntu2204/Dockerfile) *(EOL: April 2027)*
--	[`24.04`, `noble-20251013`, `noble`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2404/Dockerfile) *(EOL: April 2029)*
+-	[`20.04`, `focal`, `focal-20220612`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2004/Dockerfile) *(EOL: May 2025)*
+-	[`22.04`, `jammy-20251013`, `jammy`](https://github.com/buluma/ubuntu/blob/main/ubuntu2204/Dockerfile) *(EOL: June 2027)*
+-	[`24.04`, `noble-20251013`, `noble`, `latest`](https://github.com/buluma/ubuntu/blob/main/ubuntu2404/Dockerfile) *(EOL: May 2029)*
 
 ### Currently Supported Non-LTS Versions
 -	[`23.04`, `lunar`, `lunar-20230314`, `devel`](https://github.com/buluma/ubuntu/blob/main/ubuntu2304/Dockerfile) *(EOL: January 2024)*
@@ -33,7 +33,7 @@
 -	[`22.10`, `kinetic`, `kinetic-20220612`](https://github.com/buluma/ubuntu/blob/main/ubuntu2210/Dockerfile) *(EOL: July 2023)*
 
 ### Rolling/Development Versions
--	[`25.10`, `questing-20251217`, `questing`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2510/Dockerfile) *(Rolling)*
+-	[`25.10`, `questing-20251217`, `questing`, `rolling`](https://github.com/buluma/ubuntu/blob/main/ubuntu2510/Dockerfile) *(EOL: July 2026)*
 -	[`26.04`, `resolute-20251208`, `resolute`, `devel`](https://github.com/buluma/ubuntu/blob/main/ubuntu2604/Dockerfile) *(Development)*
 
 ## Quick reference (cont.)
