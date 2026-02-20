@@ -12,6 +12,7 @@ ARG LC_ALL="en_US.UTF-8"
 # Install dependencies.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+       curl \
        apt-utils \
        build-essential \
        locales \
@@ -43,8 +44,8 @@ RUN locale-gen en_US.UTF-8
 # Install Ansible via Pip.
 # RUN pip3 install $pip_packages
 
-COPY initctl_faker .
-RUN chmod +x initctl_faker && rm -fr /sbin/initctl && ln -s /initctl_faker /sbin/initctl
+COPY initctl_faker /initctl_faker
+RUN chmod +x /initctl_faker && rm -fr /sbin/initctl && ln -s /initctl_faker /sbin/initctl
 
 # Install Ansible inventory file.
 # RUN mkdir -p /etc/ansible

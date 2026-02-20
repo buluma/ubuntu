@@ -10,6 +10,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Install dependencies.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+       curl \
        apt-utils \
        build-essential \
        locales \
@@ -26,7 +27,6 @@ RUN apt-get update \
     && rm -Rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man
 
-# hadolint ignore=DL3009
 RUN sed -i 's/^\($ModLoad imklog\)/#\1/' /etc/rsyslog.conf
 
 # Fix potential UTF-8 errors with ansible-test.
@@ -35,9 +35,8 @@ RUN locale-gen en_US.UTF-8
 # Install Ansible via Pip. Avoid use of cache directory with pip.
 # RUN pip3 install --no-cache-dir $pip_packages
 
-# hadolint ignore=DL3045
-COPY initctl_faker .
-RUN chmod +x initctl_faker && rm -fr /sbin/initctl && ln -s /initctl_faker /sbin/initctl
+COPY initctl_faker /initctl_faker
+RUN chmod +x /initctl_faker && rm -fr /sbin/initctl && ln -s /initctl_faker /sbin/initctl
 
 # Install Ansible inventory file.
 # RUN mkdir -p /etc/ansible
